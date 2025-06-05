@@ -69,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#no2-" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -398,6 +403,21 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    lab2
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -410,6 +430,103 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Цель
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#no1-no2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Задание №1 и №2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Описание программ
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Описание программ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-threading" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Threading
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-multiprocessing" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Multiprocessing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-asyncio" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Asyncio
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Результаты
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Вывод
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -713,6 +830,94 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Цель
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#no1-no2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Задание №1 и №2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Описание программ
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Описание программ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-threading" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Threading
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-multiprocessing" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Multiprocessing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-asyncio" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Asyncio
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Результаты
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Вывод
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -728,9 +933,300 @@
 
 
 
-  <h1>lab2</h1>
+<h1 id="no2-"><span style="color:teal">Отчет по Лабораторной работе №2. Параллельный парсинг веб-страниц и сохранение в базу данных</span>.</h1>
+<h2 id="_1">Цель</h2>
+<p>Создать три программы на Python для параллельного парсинга множества веб-страниц с использованием подходов <code>threading</code>, <code>multiprocessing</code> и <code>async</code>. Все собранные данные должны быть сохранены в базу данных.</p>
+<h2 id="no1-no2">Задание №1 и №2</h2>
+<h2 id="_2">Описание программ</h2>
+<h3 id="1-threading">1. Threading</h3>
+<p>Программа использует многопоточность для параллельной загрузки и сохранения данных.</p>
+<p>рассчет суммы:</p>
+<p><div class="highlight"><pre><span></span><code><span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">partial_sum</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">):</span>
+    <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">))</span>
 
+<span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">calculate_sum</span><span class="p">():</span>
+    <span class="n">num_tasks</span> <span class="o">=</span> <span class="mi">4</span>
+    <span class="n">maximum</span> <span class="o">=</span> <span class="mi">10</span><span class="o">**</span><span class="mi">9</span>
+    <span class="n">step</span> <span class="o">=</span> <span class="n">maximum</span> <span class="o">//</span> <span class="n">num_tasks</span>
+    <span class="n">tasks</span> <span class="o">=</span> <span class="p">[]</span>
 
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_tasks</span><span class="p">):</span>
+        <span class="n">start</span> <span class="o">=</span> <span class="n">i</span> <span class="o">*</span> <span class="n">step</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">!=</span> <span class="n">num_tasks</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">end</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">step</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">end</span> <span class="o">=</span> <span class="n">maximum</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="n">task</span> <span class="o">=</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">create_task</span><span class="p">(</span><span class="n">partial_sum</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">))</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">task</span><span class="p">)</span>
+
+    <span class="n">results</span> <span class="o">=</span> <span class="k">await</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">gather</span><span class="p">(</span><span class="o">*</span><span class="n">tasks</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">results</span><span class="p">)</span>
+</code></pre></div>
+<img alt="Потоки" src="../images/thread1.png" />
+<img alt="Процессы" src="../images/thread2.png" /></p>
+<p>models.py для бд хранилища
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">sqlmodel</span><span class="w"> </span><span class="kn">import</span> <span class="n">SQLModel</span><span class="p">,</span> <span class="n">Field</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="kn">import</span> <span class="n">date</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">StockData</span><span class="p">(</span><span class="n">SQLModel</span><span class="p">,</span> <span class="n">table</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">asset_name</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">ticker</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">investing_id</span><span class="p">:</span> <span class="nb">int</span>
+    <span class="n">date</span><span class="p">:</span> <span class="n">date</span>
+    <span class="n">open_price</span><span class="p">:</span> <span class="nb">float</span>
+    <span class="n">high_price</span><span class="p">:</span> <span class="nb">float</span>
+    <span class="n">low_price</span><span class="p">:</span> <span class="nb">float</span>
+    <span class="n">close_price</span><span class="p">:</span> <span class="nb">float</span>
+    <span class="n">volume</span><span class="p">:</span> <span class="nb">int</span>
+</code></pre></div>
+<img alt="Параметры потоков" src="../images/lab2db.png" /></p>
+<p>парсинг акций с разных URL использованием библиотек yfinance.
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">fetch_historical_data</span><span class="p">(</span><span class="n">asset</span><span class="p">):</span>
+    <span class="n">ticker</span> <span class="o">=</span> <span class="n">asset</span><span class="p">[</span><span class="s1">&#39;ticker&#39;</span><span class="p">]</span>
+    <span class="n">stock</span> <span class="o">=</span> <span class="n">yf</span><span class="o">.</span><span class="n">Ticker</span><span class="p">(</span><span class="n">ticker</span><span class="p">)</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">stock</span><span class="o">.</span><span class="n">history</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="s2">&quot;2023-01-01&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;2024-12-31&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">df</span><span class="o">.</span><span class="n">empty</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">asset</span><span class="p">,</span> <span class="kc">None</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="s1">&#39;records&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">asset</span><span class="p">,</span> <span class="n">data</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">save_data_to_db</span><span class="p">(</span><span class="n">asset</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">data</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;No data to save for </span><span class="si">{</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;ticker&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">)&quot;</span><span class="p">)</span>
+        <span class="k">return</span>
+    <span class="n">records</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+        <span class="n">date_obj</span> <span class="o">=</span> <span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">date</span><span class="p">()</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">],</span> <span class="n">pd</span><span class="o">.</span><span class="n">Timestamp</span><span class="p">)</span> <span class="k">else</span> <span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span>
+        <span class="n">record</span> <span class="o">=</span> <span class="n">StockData</span><span class="p">(</span>
+            <span class="n">asset_name</span><span class="o">=</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],</span>
+            <span class="n">ticker</span><span class="o">=</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;ticker&#39;</span><span class="p">],</span>
+            <span class="n">investing_id</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+            <span class="n">date</span><span class="o">=</span><span class="n">date_obj</span><span class="p">,</span>
+            <span class="n">open_price</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Open&#39;</span><span class="p">]),</span>
+            <span class="n">high_price</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;High&#39;</span><span class="p">]),</span>
+            <span class="n">low_price</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Low&#39;</span><span class="p">]),</span>
+            <span class="n">close_price</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]),</span>
+            <span class="n">volume</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Volume&#39;</span><span class="p">])</span> <span class="k">if</span> <span class="s1">&#39;Volume&#39;</span> <span class="ow">in</span> <span class="n">entry</span> <span class="k">else</span> <span class="mi">0</span>
+        <span class="p">)</span>
+        <span class="n">records</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
+    <span class="k">with</span> <span class="n">get_session</span><span class="p">()</span> <span class="k">as</span> <span class="n">db_session</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">record</span> <span class="ow">in</span> <span class="n">records</span><span class="p">:</span>
+            <span class="n">db_session</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
+        <span class="n">db_session</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Saved </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">records</span><span class="p">)</span><span class="si">}</span><span class="s2"> for </span><span class="si">{</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;ticker&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">)&quot;</span><span class="p">)</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">process_asset</span><span class="p">(</span><span class="n">asset</span><span class="p">):</span>
+    <span class="n">asset</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">fetch_historical_data</span><span class="p">(</span><span class="n">asset</span><span class="p">)</span>
+    <span class="n">save_data_to_db</span><span class="p">(</span><span class="n">asset</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">():</span>
+    <span class="n">assets_to_search</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Apple Inc.&quot;</span><span class="p">,</span> <span class="s2">&quot;ticker&quot;</span><span class="p">:</span> <span class="s2">&quot;AAPL&quot;</span><span class="p">},</span>
+        <span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Tesla, Inc.&quot;</span><span class="p">,</span> <span class="s2">&quot;ticker&quot;</span><span class="p">:</span> <span class="s2">&quot;TSLA&quot;</span><span class="p">},</span>
+        <span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Sberbank of Russia&quot;</span><span class="p">,</span> <span class="s2">&quot;ticker&quot;</span><span class="p">:</span> <span class="s2">&quot;SBER.ME&quot;</span><span class="p">},</span>
+        <span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Brent Crude Oil&quot;</span><span class="p">,</span> <span class="s2">&quot;ticker&quot;</span><span class="p">:</span> <span class="s2">&quot;BZ=F&quot;</span><span class="p">},</span>
+        <span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;WTI Crude Oil&quot;</span><span class="p">,</span> <span class="s2">&quot;ticker&quot;</span><span class="p">:</span> <span class="s2">&quot;CL=F&quot;</span><span class="p">}</span>
+    <span class="p">]</span>
+    <span class="n">threads</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">asset</span> <span class="ow">in</span> <span class="n">assets_to_search</span><span class="p">:</span>
+        <span class="n">thread</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="n">process_asset</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="n">asset</span><span class="p">,))</span>
+        <span class="n">threads</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">thread</span><span class="p">)</span>
+        <span class="n">thread</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">thread</span> <span class="ow">in</span> <span class="n">threads</span><span class="p">:</span>
+        <span class="n">thread</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+</code></pre></div></p>
+<p><img alt="Параметры потоков" src="../images/threadpars.png" />
+<img alt="База данных потоков" src="../images/threaddb.png" /></p>
+<h3 id="2-multiprocessing">2. Multiprocessing</h3>
+<p>Программа использует многопроцессорность для параллельной загрузки и сохранения данных.</p>
+<p><div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">partial_sum</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">result</span><span class="p">,</span> <span class="n">index</span><span class="p">):</span>
+    <span class="n">result</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">))</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">calculate_sum</span><span class="p">():</span>
+    <span class="n">num_processes</span> <span class="o">=</span> <span class="n">multiprocessing</span><span class="o">.</span><span class="n">cpu_count</span><span class="p">()</span>
+    <span class="n">maximum</span> <span class="o">=</span> <span class="mi">10</span><span class="o">**</span><span class="mi">9</span>
+    <span class="n">step</span> <span class="o">=</span> <span class="n">maximum</span> <span class="o">//</span> <span class="n">num_processes</span>
+    <span class="n">manager</span> <span class="o">=</span> <span class="n">multiprocessing</span><span class="o">.</span><span class="n">Manager</span><span class="p">()</span>
+    <span class="n">processes</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="n">manager</span><span class="o">.</span><span class="n">list</span><span class="p">([</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">num_processes</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_processes</span><span class="p">):</span>
+        <span class="n">start</span> <span class="o">=</span> <span class="n">i</span> <span class="o">*</span> <span class="n">step</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">!=</span> <span class="n">num_processes</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">end</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">step</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">end</span> <span class="o">=</span> <span class="n">maximum</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="n">process</span> <span class="o">=</span> <span class="n">multiprocessing</span><span class="o">.</span><span class="n">Process</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="n">partial_sum</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">results</span><span class="p">,</span> <span class="n">i</span><span class="p">))</span>
+        <span class="n">processes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">process</span><span class="p">)</span>
+        <span class="n">process</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">process</span> <span class="ow">in</span> <span class="n">processes</span><span class="p">:</span>
+        <span class="n">process</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+    <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">results</span><span class="p">)</span>
+</code></pre></div>
+<img alt="Множество потоков" src="../images/mul1.png" />
+<img alt="Множество процессов" src="../images/mul2.png" /></p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">fetch_historical_data</span><span class="p">(</span><span class="n">asset</span><span class="p">):</span>
+    <span class="n">ticker</span> <span class="o">=</span> <span class="n">asset</span><span class="p">[</span><span class="s1">&#39;ticker&#39;</span><span class="p">]</span>
+    <span class="n">stock</span> <span class="o">=</span> <span class="n">yf</span><span class="o">.</span><span class="n">Ticker</span><span class="p">(</span><span class="n">ticker</span><span class="p">)</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">stock</span><span class="o">.</span><span class="n">history</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="s2">&quot;2023-01-01&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;2024-12-31&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">df</span><span class="o">.</span><span class="n">empty</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">asset</span><span class="p">,</span> <span class="kc">None</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="s1">&#39;records&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">asset</span><span class="p">,</span> <span class="n">data</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">save_data_to_db</span><span class="p">(</span><span class="n">asset</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">data</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;No data to save for </span><span class="si">{</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;ticker&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">)&quot;</span><span class="p">)</span>
+        <span class="k">return</span>
+    <span class="n">records</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+        <span class="n">date_obj</span> <span class="o">=</span> <span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">date</span><span class="p">()</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">],</span> <span class="n">pd</span><span class="o">.</span><span class="n">Timestamp</span><span class="p">)</span> <span class="k">else</span> <span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span>
+        <span class="n">record</span> <span class="o">=</span> <span class="n">StockData</span><span class="p">(</span>
+            <span class="n">asset_name</span><span class="o">=</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],</span>
+            <span class="n">ticker</span><span class="o">=</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;ticker&#39;</span><span class="p">],</span>
+            <span class="n">investing_id</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+            <span class="n">date</span><span class="o">=</span><span class="n">date_obj</span><span class="p">,</span>
+            <span class="n">open_price</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Open&#39;</span><span class="p">]),</span>
+            <span class="n">high_price</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;High&#39;</span><span class="p">]),</span>
+            <span class="n">low_price</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Low&#39;</span><span class="p">]),</span>
+            <span class="n">close_price</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]),</span>
+            <span class="n">volume</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Volume&#39;</span><span class="p">])</span> <span class="k">if</span> <span class="s1">&#39;Volume&#39;</span> <span class="ow">in</span> <span class="n">entry</span> <span class="k">else</span> <span class="mi">0</span>
+        <span class="p">)</span>
+        <span class="n">records</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
+    <span class="k">with</span> <span class="n">get_session</span><span class="p">()</span> <span class="k">as</span> <span class="n">db_session</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">record</span> <span class="ow">in</span> <span class="n">records</span><span class="p">:</span>
+            <span class="n">db_session</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
+        <span class="n">db_session</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Saved </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">records</span><span class="p">)</span><span class="si">}</span><span class="s2"> records for </span><span class="si">{</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;ticker&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">)&quot;</span><span class="p">)</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">process_asset</span><span class="p">(</span><span class="n">asset</span><span class="p">):</span>
+    <span class="n">asset</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">fetch_historical_data</span><span class="p">(</span><span class="n">asset</span><span class="p">)</span>
+    <span class="n">save_data_to_db</span><span class="p">(</span><span class="n">asset</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">():</span>
+    <span class="n">assets_to_search</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Apple Inc.&quot;</span><span class="p">,</span> <span class="s2">&quot;ticker&quot;</span><span class="p">:</span> <span class="s2">&quot;AAPL&quot;</span><span class="p">},</span>
+        <span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Tesla, Inc.&quot;</span><span class="p">,</span> <span class="s2">&quot;ticker&quot;</span><span class="p">:</span> <span class="s2">&quot;TSLA&quot;</span><span class="p">},</span>
+        <span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Sberbank of Russia&quot;</span><span class="p">,</span> <span class="s2">&quot;ticker&quot;</span><span class="p">:</span> <span class="s2">&quot;SBER.ME&quot;</span><span class="p">},</span>
+        <span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Brent Crude Oil&quot;</span><span class="p">,</span> <span class="s2">&quot;ticker&quot;</span><span class="p">:</span> <span class="s2">&quot;BZ=F&quot;</span><span class="p">},</span>
+        <span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;WTI Crude Oil&quot;</span><span class="p">,</span> <span class="s2">&quot;ticker&quot;</span><span class="p">:</span> <span class="s2">&quot;CL=F&quot;</span><span class="p">}</span>
+    <span class="p">]</span>
+    <span class="k">with</span> <span class="n">Pool</span><span class="p">(</span><span class="n">processes</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span> <span class="k">as</span> <span class="n">pool</span><span class="p">:</span>
+        <span class="n">pool</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">process_asset</span><span class="p">,</span> <span class="n">assets_to_search</span><span class="p">)</span>
+</code></pre></div>
+<p><img alt="Параметры многопоточности" src="../images/multpars.png" />
+<img alt="Использование базы данных" src="../images/multdb.png" /></p>
+<h3 id="3-asyncio">3. Asyncio</h3>
+<p>Программа использует асинхронность для параллельной загрузки и сохранения данных.</p>
+<p><div class="highlight"><pre><span></span><code><span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">partial_sum</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">):</span>
+    <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">))</span>
+
+<span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">calculate_sum</span><span class="p">():</span>
+    <span class="n">num_tasks</span> <span class="o">=</span> <span class="mi">4</span>
+    <span class="n">maximum</span> <span class="o">=</span> <span class="mi">10</span><span class="o">**</span><span class="mi">9</span>
+    <span class="n">step</span> <span class="o">=</span> <span class="n">maximum</span> <span class="o">//</span> <span class="n">num_tasks</span>
+    <span class="n">tasks</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_tasks</span><span class="p">):</span>
+        <span class="n">start</span> <span class="o">=</span> <span class="n">i</span> <span class="o">*</span> <span class="n">step</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">!=</span> <span class="n">num_tasks</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">end</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">step</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">end</span> <span class="o">=</span> <span class="n">maximum</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="n">task</span> <span class="o">=</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">create_task</span><span class="p">(</span><span class="n">partial_sum</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">))</span>
+        <span class="n">tasks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">task</span><span class="p">)</span>
+
+    <span class="n">results</span> <span class="o">=</span> <span class="k">await</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">gather</span><span class="p">(</span><span class="o">*</span><span class="n">tasks</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">results</span><span class="p">)</span>
+</code></pre></div>
+<img alt="Асинхронная сумма" src="../images/as1.png" />
+<img alt="Асинхронная сумма" src="../images/as2.png" /></p>
+<div class="highlight"><pre><span></span><code><span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">fetch_historical_data</span><span class="p">(</span><span class="n">asset</span><span class="p">):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">ticker</span> <span class="o">=</span> <span class="n">asset</span><span class="p">[</span><span class="s1">&#39;ticker&#39;</span><span class="p">]</span>
+        <span class="n">stock</span> <span class="o">=</span> <span class="n">yf</span><span class="o">.</span><span class="n">Ticker</span><span class="p">(</span><span class="n">ticker</span><span class="p">)</span>
+        <span class="n">df</span> <span class="o">=</span> <span class="n">stock</span><span class="o">.</span><span class="n">history</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="s2">&quot;2023-01-01&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;2024-12-31&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">df</span><span class="o">.</span><span class="n">empty</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">asset</span><span class="p">,</span> <span class="kc">None</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="s1">&#39;records&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">asset</span><span class="p">,</span> <span class="n">data</span>
+    <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">asset</span><span class="p">,</span> <span class="kc">None</span>
+
+<span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">save_data_to_db</span><span class="p">(</span><span class="n">asset</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">data</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;No data to save for </span><span class="si">{</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;ticker&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">)&quot;</span><span class="p">)</span>
+        <span class="k">return</span>
+    <span class="n">records</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">date_obj</span> <span class="o">=</span> <span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">date</span><span class="p">()</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">],</span> <span class="n">pd</span><span class="o">.</span><span class="n">Timestamp</span><span class="p">)</span> <span class="k">else</span> <span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span>
+            <span class="n">record</span> <span class="o">=</span> <span class="n">StockData</span><span class="p">(</span>
+                <span class="n">asset_name</span><span class="o">=</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],</span>
+                <span class="n">ticker</span><span class="o">=</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;ticker&#39;</span><span class="p">],</span>
+                <span class="n">investing_id</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+                <span class="n">date</span><span class="o">=</span><span class="n">date_obj</span><span class="p">,</span>
+                <span class="n">open_price</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Open&#39;</span><span class="p">]),</span>
+                <span class="n">high_price</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;High&#39;</span><span class="p">]),</span>
+                <span class="n">low_price</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Low&#39;</span><span class="p">]),</span>
+                <span class="n">close_price</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]),</span>
+                <span class="n">volume</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;Volume&#39;</span><span class="p">])</span> <span class="k">if</span> <span class="s1">&#39;Volume&#39;</span> <span class="ow">in</span> <span class="n">entry</span> <span class="k">else</span> <span class="mi">0</span>
+            <span class="p">)</span>
+            <span class="n">records</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
+        <span class="k">except</span> <span class="p">(</span><span class="ne">ValueError</span><span class="p">,</span> <span class="ne">KeyError</span><span class="p">,</span> <span class="ne">TypeError</span><span class="p">):</span>
+            <span class="k">continue</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">with</span> <span class="n">get_session</span><span class="p">()</span> <span class="k">as</span> <span class="n">db_session</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">record</span> <span class="ow">in</span> <span class="n">records</span><span class="p">:</span>
+                <span class="n">db_session</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
+            <span class="n">db_session</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Failed to save data </span><span class="si">{</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">asset</span><span class="p">[</span><span class="s1">&#39;ticker&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">) </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">process_asset</span><span class="p">(</span><span class="n">asset</span><span class="p">):</span>
+    <span class="n">_</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="k">await</span> <span class="n">fetch_historical_data</span><span class="p">(</span><span class="n">asset</span><span class="p">)</span>
+    <span class="k">await</span> <span class="n">save_data_to_db</span><span class="p">(</span><span class="n">asset</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+</code></pre></div>
+<p><img alt="Параллельный парсинг с помощью asyncio" src="../images/asyncpars.png" />
+<img alt="Параллельный парсинг" src="../images/asyncdb.png" /></p>
+<h2 id="_3">Результаты</h2>
+<table>
+<thead>
+<tr>
+<th>Подход</th>
+<th>Время выполнения задания 1</th>
+<th>Время выполнения задания 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Threading</td>
+<td>37.5 сек</td>
+<td>1.33</td>
+</tr>
+<tr>
+<td>Multiprocessing</td>
+<td>12.3 сек</td>
+<td>3.41 только из-за ошибки с парсингом акций сбера</td>
+</tr>
+<tr>
+<td>Asyncio</td>
+<td>41.2 сек</td>
+<td>2.02</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Данные по парсингу задание 1" src="../images/newplot%281%29.png" />
+<img alt="Данные по парсингу задание 2" src="../images/newplot%282%29.png" /></p>
+<h2 id="_4">Вывод</h2>
+<p>В ходе выполнения лабораторной работы были реализованы три подхода к параллельному парсингу веб-страниц:</p>
+<ol>
+<li><strong>Threading</strong> - подходит для задач, требующих большого количества операций ввода-вывода, но GIL ограничивает эффективность.</li>
+<li><strong>Multiprocessing</strong> - обеспечивает наилучшие результаты для CPU-bound задач, так как каждый процесс работает отдельно.</li>
+<li><strong>Asyncio</strong> - хорошо подходит для асинхронных операций ввода-вывода, таких как HTTP-запросы, но зависит от количества ожидающих операций.</li>
+</ol>
+<p>Эти наблюдения помогут выбрать методы обработки для различных задач, основываясь на их потребностях.</p>
 
 
 
